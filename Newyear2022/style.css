@@ -1,0 +1,50 @@
+canvas {
+
+	top: 0;
+	left: 0;
+	background-color: #111;
+}
+
+body{
+  margin: 0.00;
+  overflow: hidden;
+}
+
+#box{
+
+	width:auto;
+	height:100%;
+
+
+	position:absolute;
+	
+	text-align: center;
+	text-shadow:0 1px 1px rgba(0,0,0,.4);
+  display: flex;
+  transition: box-shadow .3s ease;
+  
+
+  background:linear-gradient(90deg,
+				rgba(255,255,255,0.2)0%,
+				rgba(255,255,255,0.2)25%,
+				rgba(255,255,255,0.2)75%,
+				rgba(255,255,255,0.2)100%);
+				box-shadow:0 0 25px rgba(0,0,0,0.1),
+				inset 0 0 1px rgba(255,255,255,0.6);
+				
+  
+
+
+}
+p{
+COLOR:#FFF;    
+font-family:'Monoton', cursive;
+ font-size: 40px;
+ text-align:center;
+}
+.l{
+     color:#09fceb;
+    font-family:'Cookie', cursive ;
+    font-size:25px;
+}
+  
